@@ -6,7 +6,65 @@
 
 .aboutHeroSection{
     display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     padding:80px 110px 80px 110px;
     gap: 64px;
+}
+
+.aboutSectionTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.aboutHeroSection img{
+    height: 350px;
+    width: 400px;
+}
+
+.places{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding:80px 110px 80px 110px;
+    gap: 64px;
+}
+.places img{
+    height: 350px;
+    width: 400px;
+}
+
+.cta{
+    background-color: #ABDEFF;
+   padding:  80px 110px 80px 110px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 40px;
+}
+
+.ctaTitle{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.ctaTitle span{
+    width: 600px;
+    text-align: center;
+}
+
+.cta button{
+    padding: 12px 24px 12px 24px;
+    border-radius: 5px;
+    background-color: #0073BD;
+    color: white;
+    outline: none;
+    border: none;
 }
