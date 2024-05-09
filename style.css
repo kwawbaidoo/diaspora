@@ -1,0 +1,597 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  /* padding:24px, 110px, 24px, 110px; */
+  padding-left: 110px;
+  padding-right: 110px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  color: white;
+}
+
+.navright {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.weOffer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.weOffer span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.aboutUs {
+  font-size: 16px;
+  font-weight: 400;
+}
+.w-6 {
+  width: 15px;
+}
+
+.h-6 {
+  width: 15px;
+}
+
+.getStartedBtn {
+  background-color: #abdeff;
+  padding: 12px 24px 12px 24px;
+  border-radius: 5px;
+  border: 1px solid #abdeff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+  padding: 80px 110px 80px 110px;
+  background-color: black;
+}
+
+.heroSectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.heroSectionTitle h1 {
+  color: white;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.heroSectionTitle span {
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.heroBtn {
+  display: flex;
+  gap: 16px;
+}
+.heroBtn :first-child {
+  padding: 12px 24px 12px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #abdeff;
+  border: none;
+}
+
+.heroBtn :last-child {
+  padding: 12px 24px 12px 24px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #abdeff;
+  color: #abdeff;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: black;
+}
+
+.gallary {
+  /* padding: 0px 0px 80px 0px; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px;
+  overflow: scroll;
+  scrollbar-width: 1px;
+  /* height: fit-content; */
+}
+
+.gallaryCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.gallaryCard img:hover + .gallaryHover{
+    display: block;
+}
+
+.gallaryHover{
+    display: none;
+    justify-content: space-between;
+    /* align-items:end; */
+    padding: 24px;
+    border-bottom-left-radius: 4px; 
+    border-bottom-right-radius: 4px;
+    /* border: 1px solid blue; */
+    
+    
+}
+
+.gallaryInfor{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* border: 1px solid red; */
+}
+
+.arrow {
+    width: 24px;
+    height: 24px;
+    float: inline-end;
+  }
+
+.howCanWeHelp {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 110px 56px 110px;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+}
+
+.howCAn {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.howCAn h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+.howCAn p {
+  font-size: 20px;
+  font-weight: 400;
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 610px;
+  line-height: 32px;
+}
+.howCanBtn {
+  display: flex;
+  gap: 16px;
+}
+
+.accomodadtionBtn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  /* padding: 3px 0px 3px 0px; */
+  background-color: #abdeff;
+  font-size: 16px;
+  font-weight: 400;
+  height: 56px;
+  width: 200px;
+  border: none;
+}
+
+.howCanBtns {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 12px 24px 12px 24px;
+  height: 56px;
+  width: 200px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.touristBtns {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 12px 24px 12px 24px;
+  height: 56px;
+  width: 212px;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.touristBtns img {
+  width: 24px;
+  height: 24px;
+}
+
+.howCanBtns img {
+  width: 24px;
+  height: 24px;
+}
+
+.search {
+  display: flex;
+  gap: 8px;
+  border: 1.5px solid #ebeceb;
+  padding: 12px 16px 12px 16px;
+  background-color: white;
+  border-radius: 4px;
+  width: 500px;
+}
+
+.search svg {
+  width: 13px;
+  height: 13px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+}
+
+.touristSite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 40px 110px 80px 110px;
+  background-color: #f8f8f8;
+}
+
+.touristSiteDetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.div {
+  /* padding: 16px; */
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  gap: 24px;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center; */
+}
+
+.siteInfor {
+  display: flex;
+  gap: 14px;
+  flex-direction: column;
+}
+
+.siteInfor p {
+  display: flex;
+  font-size: 14px;
+  /* border:1px solid red; */
+}
+
+.siteInfor a {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 6px;
+  text-decoration: none;
+}
+
+.div img {
+  height: 150px;
+  width: 230px;
+}
+
+
+
+.loadMore {
+  background-color: #abdeff;
+  padding: 12px 24px 12px 24px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+.serviceCardWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 110px 140px 110px 140px;
+  gap: 64px;
+  background-color: black;
+}
+
+.serviceTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: white;
+}
+
+.serviceTitle h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.serviceTitle span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.serviceCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 32px;
+}
+
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.card img{
+    width: 17px;
+    height: 25px;
+}
+.simCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.simCard:hover{
+    background-color: black;
+    color:white;
+}
+
+.simCard img{
+    width: 20px;
+    height: 28px;
+}
+.driverCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+.driverCard img{
+    width: 32px;
+    height: 32px;
+}
+
+.airplaneCard{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.airplaneCard img{
+    width: 25px;
+    height: 26px;
+}
+
+.questonCard{
+    background-color: #ABDEFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    gap: 24px;
+}
+
+.questonCard img{
+    width: 26px;
+    height: 26px;
+}
+
+.cardInfor{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:80px 110px 80px 110px;
+}
+
+.footerLogo{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footerLogo img{
+    height: 38px;
+    width: 116px;
+}
+
+.footerDetails{
+    display: flex;
+    gap: 64px;
+}
+
+.condition{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.condition p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.platforms{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.socials p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.platforms p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contactUsWrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 84px;
+}
+
+.contactUs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+    margin: 0;
+    padding: 0;
+}
+
+.contactUsLeftSide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 32px;
+    /* gap: 40px; */
+    border-radius: 8px;
+    height: 760px;
+    width: 604px;
+    background: conic-gradient(from 210.92deg at 50% 50%, #FD0008 0deg, #0073BD 125.63deg, #00B36D 234.38deg, #FF8800 350.63deg, #FD0008 360deg);
+}
+
+.leftSideTop img{
+    width: 121px;
+    height: 40px;
+}
+
+.leftSideTop{
+    display: flex;
+    flex-direction: column;
+    gap: 144px;
+    width: 470px;
+}
+
+.leftSideTopDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+
+.leftSideTopDetails h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.leftSideTopDetails p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.leftBottomSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px;
+    width: 470px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.nameCheck{
+    display: flex;
+    gap: 8px;
+}
+
+.contactUsRightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 644px;
+    height:auto;
+}
+
+.contactUsFormWrapper{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+}
+
+.contactUsBtn{
+    border-radius: 5px;
+    padding: 12px 48px 12px 48px;
+    background-color: black;
+    width: 222px;
+    height: 48px;
+    color: white;
+    outline: none;
+    border: none;
+}

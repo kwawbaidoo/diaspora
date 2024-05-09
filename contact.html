@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main class="contactUsWrapper">
+      <section class="contactUs">
+        <div class="contactUsLeftSide">
+          <div class="leftSideTop">
+            <img src="./assests/images/whiteLogo.png" alt="" />
+            <span class="leftSideTopDetails">
+              <h3>Let’s get you started some thing thing thing thing thi!</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur. Metus gravida arcu porta
+                venenatis. Lorem ipsum dolor sit amet consectetur. Metus gravida
+                arcu porta venenatis.
+              </p>
+            </span>
+          </div>
+          <div class="leftBottomSection">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Metus gravida arcu porta
+              venenatis.Lorem ipsum dolor sit amet consectetur. Metus gravida
+              arcu porta venenatis. Lorem ipsum dolor sit amet consectetur.
+              Metus gravida arcu porta venenatis.
+            </p>
+            <span class="nameCheck">
+                <input type="checkbox">
+                Jan Doe
+            </span>
+          </div>
+        </div>
+
+        <div class="contactUsRightSide">
+            <form action="#" class="contactUsFormWrapper">
+                <div style="display: flex; gap: 8px; width: 580px;">
+                    <div style="display: flex; flex-direction: column; gap: 8px; width: 306px; height: 82px;">
+                        <label for="first_name">First Name:</label>
+                        <input style="border-radius: 5px; padding-left: 5px; border: 1px solid #D6D6D6; outline: none; height: 50px; border-radius: 5px;" type="text" id="first_name" name="first_name" placeholder="first name" required>
+                      </div>
+                      <div style="display: flex;flex-direction: column;gap: 8px;width: 306px; height: 82px;">
+                        <label for="last_name">Last Name:</label>
+                        <input style="border-radius: 5px; padding-left: 5px; border: 1px solid #D6D6D6; outline: none; height: 50px; border-radius: 5px;" type="text" id="last_name" name="last_name" placeholder="last name" required>
+                      </div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                  <label for="email">Email Address:</label>
+                  <input style="border-radius: 5px; padding-left: 5px;  border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 580px; height: 50px;" type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                  <label for="phone">Phone Number:</label>
+                  <span>
+                    <select style="border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 80px; height: 50px;" name="" id="">
+                        <option value="+233">+233</option>
+                    </select>
+                    <input style="border-radius: 5px; padding-left: 5px; border: 1px solid #D6D6D6; outline: none; width: 495px; padding: 5px; height: 50px;" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+                  </span>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                  <label for="how_can_we_help">How can we help you?</label>
+                  <textarea placeholder="Text" style="padding-left: 5px; padding-top: 5px; border-radius: 5px; border:1px solid #D6D6D6; outline: none; width: 580px; height: 80px;" id="how_can_we_help" name="how_can_we_help" rows="4" cols="50"></textarea>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                  <label for="how_did_you_find_us">How did you find out about us?</label>
+                  <select style="padding-left: 5px; border-radius: 5px; width: 580px; height:50px; border: 1px solid #D6D6D6; outline: none;" id="how_did_you_find_us" name="how_did_you_find_us">
+                    <option value="search_engine">Search Engine</option>
+                    <option value="social_media">Social Media</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                
+              </form>
+              <button type="submit" class="contactUsBtn">Create an account</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
