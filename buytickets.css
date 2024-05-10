@@ -2,11 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "inter";
 }
 
 .buyticketwrapper{
     display: flex;
-    padding: 80px 110px 80px 110px;
+    justify-content: center;
+    /* padding: 80px 110px 80px 110px; */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 110px;
+    padding-right: 110px;
+    /* padding: 110px 80px 110px 80px; */
     background-color: black;
     gap: 64px;
 }
@@ -16,14 +23,24 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 16px;
+    gap: 140px;
+    width: 512px;
+
     color: white;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .buyticketTitle img{
-    width: 312px;
-    height: 220px;
+    width: 512px;
+    /* max-width: 512px; */
+    height: 320px;
+}
+
+.buyticketTitle span{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
 }
 
 .buyTicketsRightSide{
@@ -31,7 +48,7 @@
     flex-direction: column;
     gap: 48px;
     padding: 32px;
-    width: 544px;
+    width: 644px;
     height: 130px;
     border-radius: 8px;
     height:auto;
@@ -42,8 +59,8 @@
     border-radius: 5px;
     padding: 12px 16px 12px 16px;
     background-color: #ABDEFF;
-    width: 120px;
-    height: 48px;
+    width: 133px;
+    height: 50px;
     color: black;
     outline: none;
     border: none;
@@ -56,4 +73,18 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 32px;
+    width: 580px;
+    /* border: 1px solid red; */
+    }
+
+    .buyticketTitle h3{
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 56px;
+    }
+
+    .buyticketTitle p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 40px;
     }
