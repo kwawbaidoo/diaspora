@@ -2,18 +2,25 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Aeonik Pro";
+
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
-  /* padding:24px, 110px, 24px, 110px; */
   padding-left: 110px;
   padding-right: 110px;
   padding-top: 24px;
   padding-bottom: 24px;
   color: white;
+}
+
+.menuSvg{
+    display: none;
+    width: 24px;
+    height: 24px;
 }
 
 .navright {
@@ -83,12 +90,14 @@
   color: white;
   font-size: 24px;
   font-weight: 400;
+  font-family: "Aeonik Pro Light";
 }
 
 .heroBtn {
   display: flex;
   gap: 16px;
 }
+
 .heroBtn :first-child {
   padding: 12px 24px 12px 24px;
   border-radius: 5px;
@@ -96,6 +105,7 @@
   font-weight: 500;
   background-color: #abdeff;
   border: none;
+  font-family: "Aeonik Pro";
 }
 
 .heroBtn :last-child {
@@ -331,6 +341,9 @@
   outline: none;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
+  font-family: "DM Sans";
+  font-weight: 500;
 }
 
 .serviceCardWrapper {
@@ -355,9 +368,13 @@
     font-weight: 500;
 }
 
-.serviceTitle span{
+.largeViewService{
     font-size: 20px;
     font-weight: 400;
+}
+
+.mobileViewService{
+    display: none;
 }
 .serviceCards{
     display: grid;
