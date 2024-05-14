@@ -501,6 +501,11 @@ footer{
     gap: 15px;
 }
 
+.platforms a {
+  text-decoration: none;
+  color: black;
+}
+
 .socials{
     display: flex;
     flex-direction: column;
