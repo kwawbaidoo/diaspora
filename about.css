@@ -9,7 +9,7 @@
 
 .aboutHeroSection{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     background-color: black;
     padding:80px 110px 80px 110px;
@@ -18,8 +18,21 @@
 
 .aboutSectionTitle{
     display: flex;
+    /* align-items: center; */
     flex-direction: column;
     gap: 40px;
+}
+
+.aboutSectionTitle h3{
+    max-width: 500px;
+    text-transform: capitalize;
+    line-height: 64px;
+}
+
+.aboutSectionTitle p{
+    max-width: 500px;
+    text-transform: capitalize;
+    line-height: 40px;
 }
 
 .aboutHeroSection img{
