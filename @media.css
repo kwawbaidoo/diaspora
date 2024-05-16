@@ -1,229 +1,253 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+  * {
+    font-family: "Aeonik Pro";
+  }
+  .nav {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    *{
-        font-family: "Aeonik Pro";
+  .navright {
+    display: none;
+  }
 
-    }
-    .nav {
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-top: 24px;
-        padding-bottom: 24px;
-        color: white;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-      }
+  .menuSvg {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    /* border:1px solid red; */
+  }
 
-      .navright{
-        display: none;
-      }
-
-      .menuSvg{
-        width: 24px;
-        height: 24px;
-        display: flex;
-        /* border:1px solid red; */
-      }
-
-      /* .nav a{
+  /* .nav a{
         border: 1px solid white;
       } */
 
-      .heroSection {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 64px;
-        width: 100%;
-        padding: 80px 24px 80px 24px;
-        background-color: black;
-      }
+  .heroSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    width: 100%;
+    padding: 80px 24px 80px 24px;
+    background-color: black;
+  }
 
-      .heroSectionTitle{
-        width: 100%;
-      }
+  .heroSectionTitle {
+    width: 100%;
+  }
 
-      .heroSectionTitle h1{
-        font-size: 24px;
-        font-weight: 500;
-        font-family: "Aeonik Pro";
-      }
+  .heroSectionTitle h1 {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Aeonik Pro";
+  }
 
-      .heroSectionTitle span{
-        font-size: 16px;
-        font-family: "Aeonik Pro";
-      }
+  .heroSectionTitle span {
+    font-size: 16px;
+    font-family: "Aeonik Pro";
+  }
 
-      .heroBtn {
-        display: flex;
-        gap: 16px;
-        width: 100%;
-      }
+  .heroBtn {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+  }
+
+  .heroBtn :first-child {
+    font-family: "Aeonik Pro";
+    height: 56px;
+    width: 342px;
+  }
+
+  .heroBtn :last-child {
+    height: 56px;
+    width: 342px;
+  }
+
+  .howCanWeHelp {
+    padding: 80px 32px 56px 32px;
+  }
+
+  .howCAn p {
+    font-size: 16px;
+    width: 306px;
+    text-transform: capitalize;
+  }
+
+  .howCAn h3 {
+    font-size: 24px;
+  }
+
+  .howCanBtn {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    /* grid-template: 2; */
+    border: 1px solid red;
+  }
+
+  .touristSite {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 40px 32px 80px 32px;
+  }
+
+  .touristSiteDetails {
+    align-items: center;
+    width: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+  }
+
+  .div {
+    width: 326px;
+    align-items: center;
+    background-color: white;
+  }
+
+  .div img {
+    width: 294px;
+    height: 180px;
+  }
+
+  .siteInfor {
+    width: 100%;
+  }
+
+  .siteInfor :first-child {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .loadMore {
+    color: black;
+  }
+
+  .serviceCardWrapper {
+    padding: 110px 32px 110px 32px;
+  }
+
+  .serviceCards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* border: 1px solid red; */
+  }
+
+  .serviceTitle h3 {
+    text-align: center;
+  }
+
+  .largeViewService {
+    display: none;
+  }
+
+  .mobileViewService {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+  }
+  .simCard {
+    background-color: rgba(22, 22, 22, 1);
+    color: white;
+  }
+
+  .simCardimg {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: rgba(222, 222, 222, 1);
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 32px 80px 32px;
+    width: 100%;
+    gap: 66px;
+  }
+
+  .footerLogo {
+    width: 100%;
+  }
+
+  .footerDetails {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .aboutHeroSection {
+    flex-direction: column;
+    /* padding: 80px 32px 80px 32px; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
 
 
-      .heroBtn :first-child {
-        font-family: "Aeonik Pro";
-        height: 56px;
-        width: 342px;
-      }
+  .aboutTitle {
+    text-align: center;
+    font-family: 24px;
+    line-height: 48px;
+    font-weight: 500;
+  }
+
+  .about_Sub_Title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+  }
+
+  .heroBtn {
+    flex-direction: column;
+  }
+
+  .aboutContent{
+    flex-direction: column;
+    /* padding: 124px 32px 124px 32px; */
+    background-color: aquamarine;
+  }
+  
+  .aboutContectWrapper{
+    /* width: 878px; */
+    /* max-width: 585px; */
+  }
+
+  .aboutContentTitle{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.aboutContentInfor{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
-      .heroBtn :last-child {
-       
-        height: 56px;
-        width: 342px;
-      }
 
-      .howCanWeHelp{
-        padding: 80px 32px 56px 32px;
-      }
-
-      .howCAn p{
-        font-size: 16px;
-        width: 306px;
-        text-transform: capitalize;
-      }
-
-      .howCAn h3{
-        font-size: 24px;
-      }
-
-      .howCanBtn{
-        width: 100%;
-        height: 300px;
-        display: grid;
-        grid-template-columns: auto auto;
-        align-items: center;
-        justify-content: center;
-        /* grid-template: 2; */
-        border: 1px solid red;
-      }
-
-      .touristSite{
-        background-color: #F8F8F8;
-        width: 100%;
-        padding: 40px 32px 80px 32px;
-      }
-
-      .touristSiteDetails{
-        align-items: center;
-        width: 100%;
-        display: flex;
-        background-color: #F8F8F8;
-      }
-
-      .div{
-        width: 326px;
-        align-items: center;
-        background-color: white;
-      }
-
-      .div img{
-        width: 294px;
-        height: 180px;
-      }
-
-      .siteInfor{
-        width: 100%;
-      }
-
-      .siteInfor :first-child{
-        font-size: 16px;
-        font-weight: 500;
-      }
-
-      .loadMore{
-        color: black;
-      }
-
-      .serviceCardWrapper{
-        padding: 110px 32px 110px 32px;
-      }
-
-      .serviceCards{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 32px;
-        /* border: 1px solid red; */
-      }
-
-      .serviceTitle h3{
-        text-align: center;
-      }
-    
-      .largeViewService{
-        display: none;
-      }
-
-      .mobileViewService{
-        display: block;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        width: 300px;
-    }
-      .simCard{
-       background-color:  rgba(22, 22, 22, 1);
-       color: white;
-      }
-
-      .simCardimg{
-        width: 48px;
-        height: 48px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 5px;
-        background-color: rgba(222, 222, 222, 1);
-      }
-
-      footer{
-        display: flex;
-        flex-direction: column;
-        padding: 80px 32px 80px 32px;
-        width: 100%;
-        gap: 66px;
-      }
-
-      .footerLogo{
-        width: 100%;
-      }
-
-      .footerDetails{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      .search{
-        width: 100%;
-      }
-
-
-      .aboutHeroSection{
-        flex-direction: column;
-        padding: 80px 32px 80px 32px;
-        width: 100%;
-        align-items: center;
-        justify-content: center;
-      }
-
-      .aboutHeroSection h3{
-        font-size: 32px;
-        line-height: 48px;
-      }
-
-      .aboutSectionTitle{
-        width: 100%;
-        /* max-width: 326px; */
-        border: 1px solid red;
-      }
-
-      .aboutSectionTitle h3{
-        font-family: 32px;
-        line-height: 48px;
-        font-weight: 500;
-      }
+  
 }
