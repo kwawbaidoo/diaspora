@@ -200,4 +200,16 @@
       .search{
         width: 100%;
       }
+
+
+      .aboutHeroSection{
+        flex-direction: column;
+        padding: 80px 32px 80px 32px;
+        width: 100%;
+      }
+
+      .aboutHeroSection h3{
+        font-size: 32px;
+        line-height: 48px;
+      }
 }
