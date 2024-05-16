@@ -27,6 +27,9 @@
     max-width: 500px;
     text-transform: capitalize;
     line-height: 64px;
+    font-size: 50px; 
+    font-weight: 500; 
+    color: white
 }
 
 .aboutSectionTitle p{

@@ -206,10 +206,24 @@
         flex-direction: column;
         padding: 80px 32px 80px 32px;
         width: 100%;
+        align-items: center;
+        justify-content: center;
       }
 
       .aboutHeroSection h3{
         font-size: 32px;
         line-height: 48px;
+      }
+
+      .aboutSectionTitle{
+        width: 100%;
+        /* max-width: 326px; */
+        border: 1px solid red;
+      }
+
+      .aboutSectionTitle h3{
+        font-family: 32px;
+        line-height: 48px;
+        font-weight: 500;
       }
 }
