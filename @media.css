@@ -198,7 +198,6 @@
 
   .aboutHeroSection {
     flex-direction: column;
-    /* padding: 80px 32px 80px 32px; */
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -224,28 +223,7 @@
     flex-direction: column;
   }
 
-  .aboutContent{
-    flex-direction: column;
-    /* padding: 124px 32px 124px 32px; */
-    background-color: aquamarine;
-  }
-  
-  .aboutContectWrapper{
-    /* width: 878px; */
-    /* max-width: 585px; */
-  }
-
-  .aboutContentTitle{
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 40px;
-}
-
-.aboutContentInfor{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-}
+ 
 
 
 
