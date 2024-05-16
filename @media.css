@@ -1,7 +1,5 @@
 @media only screen and (max-width: 600px) {
-  * {
-    font-family: "Aeonik Pro";
-  }
+ 
   .nav {
     padding-left: 32px;
     padding-right: 32px;
@@ -24,9 +22,6 @@
     /* border:1px solid red; */
   }
 
-  /* .nav a{
-        border: 1px solid white;
-      } */
 
   .heroSection {
     display: flex;
@@ -45,12 +40,10 @@
   .heroSectionTitle h1 {
     font-size: 24px;
     font-weight: 500;
-    font-family: "Aeonik Pro";
   }
 
   .heroSectionTitle span {
     font-size: 16px;
-    font-family: "Aeonik Pro";
   }
 
   .heroBtn {
@@ -60,7 +53,6 @@
   }
 
   .heroBtn :first-child {
-    font-family: "Aeonik Pro";
     height: 56px;
     width: 342px;
   }
@@ -85,14 +77,20 @@
   }
 
   .howCanBtn {
-    width: 100%;
-    height: 300px;
-    display: grid;
-    grid-template-columns: auto auto;
+    width: 357px;
+    /* height: 300px; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* grid-template: 2; */
-    border: 1px solid red;
+  
+  }
+
+  .howCanBtnOne{
+    width: 360px;
+  }
+
+  .howCanBtnTwo{
+    width: 360px;
   }
 
   .touristSite {
@@ -198,17 +196,29 @@
 
   .aboutHeroSection {
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
+    padding: 80px 32px 80px 32px ;
     align-items: center;
     justify-content: center;
+    background-color: red;
   }
 
+  .aboutSectionTitle{
+    /* width: 100%; */
+    width: 926px;
+    border: 1px solid wheat;
+  }
+  
+  .aboutInforWrapper{
+    width: 100%;
+  }
 
   .aboutTitle {
     text-align: center;
-    font-family: 24px;
+    font-size: 10px;
     line-height: 48px;
     font-weight: 500;
+    color: red;
   }
 
   .about_Sub_Title {
@@ -219,10 +229,23 @@
     color: white;
   }
 
-
+.aboutSectionTwo{
+  flex-direction: column;
+}
  
+.ctaWrapper{
+  /* width: 100%; */
+  width: 420px;
+  border: 1px solid red;
+}
 
+.ctaWrapper p{
+  font-size: 16px;
+  line-height: 24px;
+}
+.ctaWrapper h3{
 
+}
 
   
 }
