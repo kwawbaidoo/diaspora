@@ -200,7 +200,7 @@
   font-weight: 400;
   /* border: 1px solid black; */
   text-align: center;
-  width: 610px;
+  max-width: 750px;
   line-height: 32px;
 }
 .howCanBtn {
