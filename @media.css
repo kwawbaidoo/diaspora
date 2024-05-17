@@ -50,15 +50,6 @@
     max-width: 100%;
   }
 
-  .heroBtn {
-      height: 56px;
-      width: 326px;
-  }
-
-  .hero_Btn{
-    height: 56px;
-    width: 326px;
-  }
 
 
   .howCanWeHelp {
@@ -204,6 +195,10 @@
     flex-direction: column;
     padding: 80px 32px 80px 32px ;
   }
+
+  .heroBtn{
+    flex-direction: column;
+  }
   
   
   .aboutHeroBtn{
@@ -218,8 +213,6 @@
   
   .aboutInforWrapper{
     border: 1px solid blue;
-    width: 100%;
-    max-width: 326px;
   }
   
   .aboutTitle {
@@ -236,6 +229,13 @@
     text-align: center;
     color: white;
   }
+
+
+  .about-Hero-Btn {
+    height: 56px;
+    width: 326px;
+}
+
   
   .aboutImage{
     width: 326px;
