@@ -35,19 +35,24 @@
 
   .heroSectionTitle {
     width: 100%;
+    text-align: center;
   }
 
   .heroSectionTitle h1 {
     font-size: 24px;
     font-weight: 500;
+    line-height: 40px;
   }
 
   .heroSectionTitle span {
     font-size: 16px;
+    font-weight: 400;
+    max-width: 100%;
   }
 
   .heroBtn {
     display: flex;
+    flex-direction: column;
     gap: 16px;
     width: 100%;
   }
@@ -194,18 +199,25 @@
     width: 100%;
   }
 
+  .aboutImage{
+    width: 350px;
+    height: 450px;
+  }
+
   .aboutHeroSection {
     flex-direction: column;
     padding: 80px 32px 80px 32px ;
     align-items: center;
+    width: 100%;
+    max-width: 390px;
     /* justify-content: center;
     background-color: white; */
   }
 
   .aboutSectionTitle{
-    background-color: aqua;
-    /* width: 600px; */
-    /* border: 1px solid red; */
+    /* background-color: aqua;  */
+    width: 100%;
+    /* border: 1px solid white; */
   }
   
   .aboutInforWrapper{
@@ -243,7 +255,7 @@
   justify-content: center;
 }
 
-.aboutSectionInforTwoWrapper h3{
+.aboutTitle{
 font-size: 32px;
 font-weight: 500;
 line-height: 40px;
@@ -251,7 +263,7 @@ line-height: 40px;
 
 }
 
-.aboutSectionInforTwoWrapper p{
+.aboutTileInfor{
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;

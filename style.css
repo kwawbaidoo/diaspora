@@ -12,7 +12,7 @@
 
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: black;
   padding-left: 110px;
   padding-right: 110px;
@@ -20,6 +20,13 @@
   padding-bottom: 24px;
   color: white;
 }
+
+.navWrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
 
 .menuSvg{
     display: none;
