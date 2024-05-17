@@ -51,21 +51,15 @@
   }
 
   .heroBtn {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
+      height: 56px;
+      width: 326px;
   }
 
-  .heroBtn :first-child {
+  .hero_Btn{
     height: 56px;
-    width: 342px;
+    width: 326px;
   }
 
-  .heroBtn :last-child {
-    height: 56px;
-    width: 342px;
-  }
 
   .howCanWeHelp {
     padding: 80px 32px 56px 32px;
@@ -138,6 +132,9 @@
   .serviceCardWrapper {
     padding: 110px 32px 110px 32px;
   }
+  .serviceWrapper{
+    flex-direction: column;
+  }
 
   .serviceCards {
     width: 100%;
@@ -177,12 +174,14 @@
     background-color: rgba(222, 222, 222, 1);
   }
 
-  footer {
-    display: flex;
-    flex-direction: column;
-    padding: 80px 32px 80px 32px;
-    width: 100%;
+  .footerContainer{
+    padding-left: 32px;
+  }
+
+  .footerWrapper{
     gap: 66px;
+    flex-direction: column;
+    /* border: 1px solid black; */
   }
 
   .footerLogo {
@@ -190,6 +189,7 @@
   }
 
   .footerDetails {
+    gap: 64px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -199,38 +199,36 @@
     width: 100%;
   }
 
-  .aboutImage{
-    width: 350px;
-    height: 450px;
-  }
-
+  
   .aboutHeroSection {
     flex-direction: column;
     padding: 80px 32px 80px 32px ;
-    justify-content: center;
-    width: 100%;
-    /* max-width: 390px; */
-    /* justify-content: center;
-    background-color: white; */
   }
-
+  
+  
+  .aboutHeroBtn{
+    flex-direction: column;
+  }
+  
   .aboutSectionTitle{
-    width: 100%;
-    border: 1px solid white;
+    /* width: 100%; */
+    border: 1px solid red;
+    max-width: 326px;
   }
   
   .aboutInforWrapper{
+    border: 1px solid blue;
     width: 100%;
+    max-width: 326px;
   }
-
+  
   .aboutTitle {
     text-align: center;
-    font-size: 10px;
-    line-height: 48px;
-    font-weight: 500;
-    color: red;
+    /* font-size: 10px; */
+    /* line-height: 48px; */
+    /* font-weight: 500; */
   }
-
+  
   .about_Sub_Title {
     font-size: 16px;
     font-weight: 400;
@@ -238,37 +236,23 @@
     text-align: center;
     color: white;
   }
-
+  
+  .aboutImage{
+    width: 326px;
+    height: 240px;
+  }
 .aboutSectionTwo{
   flex-direction: column;
   padding: 89px 32px 89px 32px;
 }
 
 .aboutSectionInforTwoWrapper{
-  border: 1px solid red;
-  width: 100%;
-  max-width: 426px;
   display: flex;
   flex-direction: column ;
   align-items: center;
   justify-content: center;
 }
 
-.aboutTitle{
-font-size: 32px;
-font-weight: 500;
-line-height: 40px;
-
-
-}
-
-.aboutTileInfor{
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-
-
-}
  
 .ctaWrapper{
   /* width: 100%; */

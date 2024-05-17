@@ -33,7 +33,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  /* width: 50%; */
   width: 100%;
   max-width: 578px;
   height: fit-content;
@@ -73,10 +72,10 @@ main {
 .aboutHeroBtn {
   display: flex;
   gap: 16px;
-  max-width: 628px;
+  /* max-width: 628px; */
 }
 
-.heroBtn{
+.about-Hero-Btn{
   padding: 12px 24px 12px 24px;
   gap: 10px;
   border-radius: 5px;
@@ -93,18 +92,11 @@ main {
   justify-content: center;
 }
 
-.hero_Btn{
-  padding: 12px 24px 12px 24px;
-  gap: 10px;
-  border-radius: 5px;
+.btn-Are-You{
+  
   border: 1px solid #abdeff;
   background-color: black;
   color: #abdeff;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 24px;
-  height: 56px;
-  width: 578px;
 }
 
 .aboutSectionTwo {
