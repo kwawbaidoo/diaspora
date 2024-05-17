@@ -20,7 +20,7 @@ main {
 
 .aboutHeroSection {
   display: flex;
-  /* width: 100%; */
+  width: 100%;
   justify-content: center;
   background-color: black;
   padding: 80px 110px 80px 110px;
@@ -30,31 +30,32 @@ main {
 .aboutSectionTitle {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
+  /* width: 50%; */
   width: 100%;
-  /* max-width: 600px; */
-  
+  max-width: 578px;
+  height: fit-content;
   border: 1px solid white;
 }
 
 .aboutInforWrapper {
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  width: 628px;
+  /* gap: 16px; */
+  /* width: 628px; */
 }
 
 .aboutTitle {
   text-transform: capitalize;
   line-height: 64px;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 500;
   color: white;
   /* max-width: 578px; */
 }
 
 .about_Sub_Title {
-  font-size: 24px;
+  font-size: 22px;
   line-height: 40px;
   font-weight: 400;
   color: white;
@@ -63,7 +64,7 @@ main {
 }
 
 .aboutImage {
-  height: auto;
+  /* height: auto; */
   border-radius: 4px;
 }
 
@@ -73,11 +74,11 @@ main {
   max-width: 628px;
 }
 
-.aboutHeroBtn :first-child {
+.heroBtn{
   padding: 12px 24px 12px 24px;
   gap: 10px;
   border-radius: 5px;
-  background-color: #abdeff;
+  background-color: #ABDEFF;
   outline: none;
   border: none;
   font-size: 16px;
@@ -87,7 +88,7 @@ main {
   width: 578px;
 }
 
-.aboutHeroBtn :last-child {
+.hero_Btn{
   padding: 12px 24px 12px 24px;
   gap: 10px;
   border-radius: 5px;
