@@ -207,17 +207,16 @@
   .aboutHeroSection {
     flex-direction: column;
     padding: 80px 32px 80px 32px ;
-    align-items: center;
+    justify-content: center;
     width: 100%;
-    max-width: 390px;
+    /* max-width: 390px; */
     /* justify-content: center;
     background-color: white; */
   }
 
   .aboutSectionTitle{
-    /* background-color: aqua;  */
     width: 100%;
-    /* border: 1px solid white; */
+    border: 1px solid white;
   }
   
   .aboutInforWrapper{

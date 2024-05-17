@@ -31,9 +31,16 @@
   font-size: 16px;
 }
 
+.btn-asked{
+  background-color: black;
+  color: #ABDEFF;
+  border: 1px solid #ABDEFF;
+  border-radius: 5px;
+}
+
 .nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content:  center;
   background-color: black;
   padding-left: 110px;
   padding-right: 110px;
@@ -45,7 +52,8 @@
 .navWrapper{
   display: flex;
   justify-content: space-between;
-  width: 90%;
+  width: 100%;
+  max-width: 1400px;
 }
 
 
@@ -388,6 +396,8 @@
 .serviceCardWrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 110px 140px 110px 140px;
   gap: 64px;
   background-color: black;
@@ -416,9 +426,23 @@
     display: none;
 }
 .serviceCards{
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
     gap: 32px;
+    border: 1px solid red;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.serviceWrapper {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  max-width: 116opx;
+  border: 1px solid white;
 }
 
 .card{
@@ -428,6 +452,7 @@
     border-radius: 8px;
     padding: 24px;
     gap: 24px;
+    max-width: 365.33px;
 }
 
 .card img{
@@ -441,6 +466,7 @@
     border-radius: 8px;
     padding: 24px;
     gap: 24px;
+    max-width: 365.33px;
 }
 
 .simCard:hover{
@@ -459,6 +485,7 @@
     border-radius: 8px;
     padding: 24px;
     gap: 24px;
+    max-width: 365.33px;
 }
 .driverCard img{
     width: 32px;
@@ -472,6 +499,7 @@
     border-radius: 8px;
     padding: 24px;
     gap: 24px;
+    max-width: 365.33px;
 }
 
 .airplaneCard img{
@@ -486,6 +514,7 @@
     border-radius: 8px;
     padding: 24px;
     gap: 24px;
+    max-width: 365.33px;
 }
 
 .questonCard img{
@@ -500,11 +529,13 @@
 }
 
 
-footer{
+.footerContainer{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    justify-content: center;
     padding:80px 110px 80px 110px;
+    width: 100%;
 }
 
 .footerLogo{
@@ -521,6 +552,13 @@ footer{
 .footerDetails{
     display: flex;
     gap: 64px;
+}
+
+.footerWrapper{
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  justify-content: space-between;
 }
 
 .condition{
