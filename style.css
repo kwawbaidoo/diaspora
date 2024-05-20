@@ -680,13 +680,17 @@
 .nameCheck {
   display: flex;
   gap: 8px;
+  align-items: center;
+  /* justify-content: center; */
 }
 
-.checkbox[type="checkbox"]{
+
+.checkInput{
   width: 32px;
   height: 32px;
-  border-radius: 2px;
-  border: 1px solid red;
+  background: red;
+  border: none;
+  outline: none;
 }
 
 .contactUsform {
