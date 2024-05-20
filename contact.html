@@ -24,33 +24,33 @@
           </div>
           <div class="contactUsform">
             <form action="#" class="contactUsFormWrapper">
-                <div class="contactUserName" style="display: flex; gap: 32px; width: 644px;">
+                <div class="contactUserName" >
                     <div style="display: flex; flex-direction: column; gap: 8px; width: 306px; height: 82px;">
                         <label for="first_name">First Name:</label>
-                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; width: 306px; border-radius: 5px;" type="text" placeholder="First name" required>
+                        <input class="userNameInput" type="text" placeholder="First name" required>
                       </div>
                       <div style="display: flex;flex-direction: column;gap: 8px; width: 306px; height: 82px; ">
                         <label for="last_name">Last Name:</label>
-                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; width: 306px; border-radius: 5px;" type="text" placeholder="Last name" required>
+                        <input class="userNameInput" type="text" placeholder="Last name" required>
                       </div>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="email">Email Address:</label>
-                  <input class="emailInput" style="border-radius: 5px; padding: 16px;  border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 644px; height: 50px;" type="email" placeholder="Email" required>
+                  <input class="emailInput" type="email" placeholder="Email" required>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="phone">Phone Number:</label>
-                  <span style="display: flex; gap: 8px;">
-                  <div style="border-radius: 5px; padding: 10px; border: 1px solid #D6D6D6; outline: none; width: 113px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                  <span class="countryCodeWrapper">
+                  <div class="countryCode">
                     <select style="border-radius: 5px; padding: 10px; border:none; outline: none; width: 90px;" >
                       <option value="+233">&#127468;&#127469; +233</option>
                   </select>
                   </div>
-                    <input class="phoneNumberInput" style="border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 523px; padding: 16px; height: 50px;" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    <input class="phoneNumberInput" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
                   </span>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div class="textareaWrapper" style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="how_can_we_help">How can we help you?</label>
                   <textarea class="textareaInput" placeholder="Text" style="padding: 16px; border-radius: 5px; border:1px solid #D6D6D6; outline: none; width: 644px; height: 80px;"  rows="4" cols="50"></textarea>
                 </div>

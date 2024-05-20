@@ -1,14 +1,49 @@
 @media only screen and (max-width: 600px){
 
+
+    .contactUsWrapper{
+        border: 1px solid black;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .footerContainer{
+        flex-direction: column;
+    }
+
+    .footerWrapper{
+        flex-direction: column;
+    }
+
+    .footerDetails{
+        flex-direction: column;
+    }
+
+    .contactUsLeftSide{
+        width: 100%;
+        max-width: 390px;
+        gap: 24px;
+        /* background-color: inherit; */
+        /* display: none; */
+    }
+
     .contactUsform{
         display: flex;
         width: 100%;
         max-width: 326px;
+        background-color: white;
+        padding: 24px;
     }
 
     .contactUsFormWrapper{
-        max-width: 326px;
-        border: 1px solid wheat;
+        max-width: 278px;
+        border: 1px solid red;
+        /* background-color: blue; */
+        /* padding: 24px; */
+
+        /* display: none; */
+        /* background-color:white; */
     }
 
     .leftSideTop{
@@ -22,21 +57,36 @@
 
     .contactUserName{
         width: 278px;
+        border: 1px solid red;
+    }
+
+    .userNameInput{
+        width: 123px;
     }
 
     .emailInput{
         width: 278px;
     }
 
+    .countryCode{
+        width: 123px;
+    }
+
     .phoneNumberInput{
-        width: 157px;
+        width: 156px;
     }
 
     .textareaInput{
         width: 278px;
     }
 
-    .selectOptionInput{
+    .textareaWrapper{
         display: none;
+    }
+
+
+    .leftSideTopDetails h3{
+        font-size: 24px;
+        line-height: 32px;
     }
 }
