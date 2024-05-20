@@ -534,12 +534,16 @@
 .footerContainer{
     padding:80px 110px 80px 110px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footerLogo{
     display: flex;
     flex-direction: column;
     gap: 24px;
+    max-width: 217px;
 }
 
 .footerLogo img{
@@ -548,6 +552,7 @@
 }
 
 .footerDetails{
+  max-width: 449px;
     display: flex;
     gap: 64px;
 }
@@ -555,8 +560,9 @@
 .footerWrapper{
   display: flex;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1200px;
   justify-content: space-between;
+  border: 1px solid red;
 }
 
 .condition{

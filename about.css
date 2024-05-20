@@ -86,17 +86,27 @@ main {
   font-weight: 500;
   line-height: 24px;
   height: 56px;
-  width: 578px;
+  width: 289px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .btn-Are-You{
-  
+  padding: 12px 24px 12px 24px;
+  gap: 10px;
+  border-radius: 5px;
   border: 1px solid #abdeff;
   background-color: black;
   color: #abdeff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  height: 56px;
+  width: 273px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .aboutSectionTwo {
@@ -177,5 +187,104 @@ main {
   color: white;
   background-color: #0073BD;
   border: none;
+
+}
+
+@media only screen and (max-width: 600px){
+
+  .aboutHeroSection {
+    flex-direction: column;
+    padding: 80px 32px 80px 32px ;
+    align-items: center;
+    justify-content: center;
+  }
+
+.aboutHeroBtn{
+  flex-direction: column;
+}
+
+.aboutSectionTitle{
+  border: 1px solid red;
+  width: 100%;
+  max-width: 326px;
+}
+
+.aboutInforWrapper{
+  display: flex;
+  border: 1px solid blue;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutTitle {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 500;
+  text-align: centerc;
+}
+
+.about_Sub_Title {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  text-align: center;
+}
+
+
+.about-Hero-Btn {
+  height: 56px;
+  width: 326px;
+}
+
+.btn-Are-You{
+height: 56px;
+width: 326px;
+}
+
+.aboutImage{
+  width: 326px;
+  height: 240px;
+}
+
+
+.aboutSectionTwo{
+flex-direction: column;
+padding: 89px 32px 89px 32px;
+}
+
+.aboutSectionInforTwoWrapper{
+display: flex;
+flex-direction: column ;
+align-items: center;
+justify-content: center;
+max-width: 326px;
+}
+
+
+.aboutTileTwo{
+  font-size: 30px;
+}
+
+.aboutTileInforTwo{
+  font-size: 15px;
+}
+
+.ctaSection{
+  display: flex;
+  gap: 40px;
+  padding: 80px 32px 80px 32px;
+}
+ 
+.ctaWrapper{
+  width: 100%;
+  max-width: 326px;
+  border: 1px solid red;
+}
+
+.ctaWrapper p{
+  font-size: 15px;
+  line-height: 24px;
+}
 
 }

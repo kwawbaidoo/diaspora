@@ -1,5 +1,4 @@
 @media only screen and (max-width: 600px) {
- 
   .nav {
     padding-left: 32px;
     padding-right: 32px;
@@ -21,7 +20,6 @@
     display: flex;
     /* border:1px solid red; */
   }
-
 
   .heroSection {
     display: flex;
@@ -50,8 +48,6 @@
     max-width: 100%;
   }
 
-
-
   .howCanWeHelp {
     padding: 80px 32px 56px 32px;
   }
@@ -72,14 +68,13 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  
   }
 
-  .howCanBtnOne{
+  .howCanBtnOne {
     width: 360px;
   }
 
-  .howCanBtnTwo{
+  .howCanBtnTwo {
     width: 360px;
   }
 
@@ -123,7 +118,7 @@
   .serviceCardWrapper {
     padding: 110px 32px 110px 32px;
   }
-  .serviceWrapper{
+  .serviceWrapper {
     flex-direction: column;
   }
 
@@ -165,11 +160,11 @@
     background-color: rgba(222, 222, 222, 1);
   }
 
-  .footerContainer{
+  .footerContainer {
     padding-left: 32px;
   }
 
-  .footerWrapper{
+  .footerWrapper {
     gap: 66px;
     flex-direction: column;
     /* border: 1px solid black; */
@@ -190,81 +185,7 @@
     width: 100%;
   }
 
-  
-  .aboutHeroSection {
-    flex-direction: column;
-    padding: 80px 32px 80px 32px ;
-  }
-
-  .heroBtn{
+  .heroBtn {
     flex-direction: column;
   }
-  
-  
-  .aboutHeroBtn{
-    flex-direction: column;
-  }
-  
-  .aboutSectionTitle{
-    /* width: 100%; */
-    border: 1px solid red;
-    max-width: 326px;
-  }
-  
-  .aboutInforWrapper{
-    border: 1px solid blue;
-  }
-  
-  .aboutTitle {
-    text-align: center;
-    /* font-size: 10px; */
-    /* line-height: 48px; */
-    /* font-weight: 500; */
-  }
-  
-  .about_Sub_Title {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    color: white;
-  }
-
-
-  .about-Hero-Btn {
-    height: 56px;
-    width: 326px;
-}
-
-  
-  .aboutImage{
-    width: 326px;
-    height: 240px;
-  }
-.aboutSectionTwo{
-  flex-direction: column;
-  padding: 89px 32px 89px 32px;
-}
-
-.aboutSectionInforTwoWrapper{
-  display: flex;
-  flex-direction: column ;
-  align-items: center;
-  justify-content: center;
-}
-
- 
-.ctaWrapper{
-  /* width: 100%; */
-  width: 420px;
-  border: 1px solid red;
-}
-
-.ctaWrapper p{
-  font-size: 16px;
-  line-height: 24px;
-}
-
-
-  
 }
