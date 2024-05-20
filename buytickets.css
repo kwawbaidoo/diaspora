@@ -5,85 +5,244 @@
   font-family: "inter";
 }
 
-.buyticketwrapper{
-    display: flex;
-    justify-content: center;
-    /* padding: 80px 110px 80px 110px; */
-    padding-top: 80px;
-    padding-bottom: 80px;
-    padding-left: 110px;
-    padding-right: 110px;
-    /* padding: 110px 80px 110px 80px; */
-    background-color: black;
-    gap: 64px;
+.buyticketwrapper {
+  display: flex;
+  justify-content: center;
+  /* padding: 80px 110px 80px 110px; */
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 110px;
+  padding-right: 110px;
+  /* padding: 110px 80px 110px 80px; */
+  background-color: black;
+  gap: 64px;
 }
 
-.buyticketTitle{
-    display: flex;
+.buyticketTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 140px;
+  width: 100%;
+  max-width: 512px;
+  color: white;}
+
+.buyticketTitle img {
+  width: 512px;
+  /* max-width: 512px; */
+  height: 320px;
+}
+
+.buyticketTitle span {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.buyTicketsRightSide {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding: 32px;
+  width: 644px;
+  height: 130px;
+  border-radius: 8px;
+  height: auto;
+  background-color: white;
+}
+
+.buyTicketBtn {
+  border-radius: 5px;
+  padding: 12px 16px 12px 16px;
+  background-color: #abdeff;
+  width: 133px;
+  height: 50px;
+  color: black;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.buyTicketFormWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  width: 580px;
+  /* border: 1px solid red; */
+}
+
+.buyticketTitle h3 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.buyticketTitle p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.firstNameInput {
+  border-radius: 5px;
+  padding: 16px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  /* height: 50px; */
+  width: 274px;
+  border-radius: 5px;
+}
+
+.lastNameInput {
+  border-radius: 5px;
+  padding: 16px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  width: 274px;
+  /* height: 50px; */
+  border-radius: 5px;
+}
+
+.EmailInput {
+  border-radius: 5px;
+  padding: 16px;
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  width: 580px;
+  /* height: 50px; */
+}
+
+.countryCode {
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  width: 113px;
+  height: 50px;
+}
+
+.phoneNumberInput {
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  width: 459px;
+  padding: 16px;
+  height: 50px;
+}
+
+.numberOfTickets {
+  border-radius: 5px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+  width: 133px;
+  padding: 16px;
+  height: 50px;
+}
+
+.questionSelect {
+  padding: 16px;
+  border-radius: 5px;
+  width: 580px;
+  height: 50px;
+  border: 1px solid #d6d6d6;
+  outline: none;
+}
+
+.userNameWrapper {
+  display: flex;
+  gap: 32px;
+  width: 580px;
+}
+
+.emailWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid yellow;
+}
+
+@media only screen and (max-width: 600px) {
+  .buyticketwrapper {
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 140px;
     width: 100%;
-    max-width: 512px;
-    color: white;
-}
-
-.buyticketTitle img{
-    width: 512px;
-    /* max-width: 512px; */
-    height: 320px;
-}
-
-.buyticketTitle span{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
     align-items: center;
+    /* padding: 0; */
+  }
+
+.buyticketTitle {
+width: 278px;;
 }
 
-.buyTicketsRightSide{
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    padding: 32px;
-    width: 644px;
-    height: 130px;
-    border-radius: 8px;
-    height:auto;
-    background-color: white;
-}
+  .buyticketTitle img {
+    width: 326px;
+    height: 240px;
+  }
 
-.buyTicketBtn{
+  .buyTicketsRightSide {
+    width: 326px;
+    align-items: center;
+  }
+
+  .btnShowInterest{
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .buyTicketFormWrapper {
+    width: 278px;
+    border: 1px solid blue;
+  }
+
+  .emailWrapper{
+    width: 278px;
+  }
+
+  .userNameWrapper {
+    width: 278px;
+    border: 1px solid red;
+  }
+
+  .firstNameInput {
+    width: 123px;
+  }
+
+  .lastNameInput {
+    width: 123px;
+  }
+
+  .EmailInput {
+    width: 278px;
+    
+  }
+
+  .countryCode {
+    width: 113px;
+  }
+
+  .phoneNumberInput {
+    width: 154px;
+  }
+
+  .numberOfTickets {
     border-radius: 5px;
-    padding: 12px 16px 12px 16px;
-    background-color: #ABDEFF;
-    width: 133px;
-    height: 50px;
-    color: black;
+    border: 1px solid #d6d6d6;
     outline: none;
-    border: none;
-    font-size: 14px;
-    font-weight: 500;
+    width: 133px;
+    padding: 16px;
+    height: 50px;
+  }
+
+  .questionSelect {
+    padding: 16px;
+    border-radius: 5px;
+    width: 278px;
+    height: 50px;
+    border: 1px solid #d6d6d6;
+    outline: none;
+  }
 }
-
-.buyTicketFormWrapper{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 32px;
-    width: 580px;
-    /* border: 1px solid red; */
-    }
-
-    .buyticketTitle h3{
-        font-size: 40px;
-        font-weight: 500;
-        line-height: 56px;
-    }
-
-    .buyticketTitle p{
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 40px;
-    }
