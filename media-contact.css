@@ -5,4 +5,38 @@
         width: 100%;
         max-width: 326px;
     }
+
+    .contactUsFormWrapper{
+        max-width: 326px;
+        border: 1px solid wheat;
+    }
+
+    .leftSideTop{
+        gap: 40px;
+        max-width: 326px;
+    }
+
+    .contactUsRightSide{
+        display: none;
+    }
+
+    .contactUserName{
+        width: 278px;
+    }
+
+    .emailInput{
+        width: 278px;
+    }
+
+    .phoneNumberInput{
+        width: 157px;
+    }
+
+    .textareaInput{
+        width: 278px;
+    }
+
+    .selectOptionInput{
+        display: none;
+    }
 }

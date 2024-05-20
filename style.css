@@ -603,11 +603,12 @@
 
 .contactUsWrapper{
     display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
     padding: 32px;
     gap: 84px;
+    /* border: 1px solid red; */
 }
 
 .contactUs{
@@ -615,8 +616,7 @@
     align-items: center;
     justify-content: center;
     gap: 84px;
-    margin: 0;
-    padding: 0;
+    /* border: 1px solid black; */
 }
 
 .contactUsLeftSide{
@@ -627,7 +627,7 @@
     padding: 32px;
     /* gap: 40px; */
     border-radius: 8px;
-    height: 760px;
+    height: 960px;
     width: 100%;
     max-width: 604px;
     background: conic-gradient(from 210.92deg at 50% 50%, #FD0008 0deg, #0073BD 125.63deg, #00B36D 234.38deg, #FF8800 350.63deg, #FD0008 360deg);
@@ -643,7 +643,7 @@
     flex-direction: column;
     gap: 144px;
     max-width: 540px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .leftSideTopDetails{
@@ -702,7 +702,7 @@
     width: 100%;
     max-width: 644px;
     height:auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .contactUsFormWrapper{
