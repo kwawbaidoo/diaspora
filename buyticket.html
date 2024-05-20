@@ -10,29 +10,47 @@
   </head>
   <body>
     <nav class="nav">
-      <a href="./index.html">
-        <img src="./assests/images/logo.png" alt="" />
-      </a>
-      <div class="navright">
-        <div class="weOffer">
-          <span>What We offer</span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="w-6 h-6"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="m19.5 8.25-7.5 7.5-7.5-7.5"
-            />
-          </svg>
+      <div class="navWrapper">
+        <a href="./index.html">
+          <img src="./assests/images/logo.png" alt="" />
+        </a>
+        <div class="navright">
+          <div class="weOffer">
+            <span>What We offer</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m19.5 8.25-7.5 7.5-7.5-7.5"
+              />
+            </svg>
+          </div>
+          <a href="./about.html" class="aboutUs">About us</a>
+          <button class="getStartedBtn">Get Started</button>
         </div>
-        <a href="./about.html" class="aboutUs">About us</a>
-        <button class="btn-primary btn-text-bold">Get Started</button>
+  
+        <svg
+          class="menuSvg"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="w-6 h-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
       </div>
     </nav>
     <main>
@@ -123,8 +141,8 @@
             <div style="display: flex; flex-direction: column; gap: 8px;">
                 <label for="phone">Phone Number:</label>
                 <span style="display: flex; gap: 8px;">
-                  <select style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; width: 113px; height: 50px;" >
-                      <option value="+233">+233</option>
+                  <select style="border-radius: 5px; padding: 10px; border: 1px solid #D6D6D6; outline: none; width: 113px; height: 50px;" >
+                      <option style="padding-right: 16px;" value="+233">&#127468;&#127469; +233</option>
                   </select>
                   <input style="border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 459px; padding: 16px; height: 50px;" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
@@ -175,34 +193,36 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="footerLogo">
-        <img src="./assests/images/logo2.png" alt="" />
-        <p style="font-size: 16px; font-weight: 400; width: 220px">
-          Lorem ipsum dolor sit amet consectetur.
-        </p>
-      </div>
-      <div class="footerDetails">
-        <span class="condition">
-          <h3>COMPANY</h3>
-          <p>Terms & Conditions</p>
-          <p>Terms of use</p>
-        </span>
-        <span class="platforms">
-          <h3>PLATFORM</h3>
-          <p>About us</p>
-          <p>Accomodation</p>
-          <p>Accomodation</p>
-          <p>Accomodation</p>
-          <p>Accomodation</p>
-          <p>Accomodation</p>
-        </span>
-        <span class="socials">
-          <h3>SOCIALS</h3>
-          <p>Instagram</p>
-          <p>Whatsapp</p>
-          <p>Twitter</p>
-        </span>
+    <footer class="footerContainer">
+      <div class="footerWrapper">
+        <div class="footerLogo">
+          <img src="./assests/images/logo2.png" alt="" />
+          <p style="font-size: 16px; font-weight: 400; width: 220px">
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
+        </div>
+        <div class="footerDetails">
+          <span class="condition">
+            <h3>COMPANY</h3>
+            <p>Terms & Conditions</p>
+            <p>Terms of use</p>
+          </span>
+          <span class="platforms">
+            <h3>PLATFORM</h3>
+            <a href="./about.html">About us</a>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+          </span>
+          <span class="socials">
+            <h3>SOCIALS</h3>
+            <p>Instagram</p>
+            <p>Whatsapp</p>
+            <p>Twitter</p>
+          </span>
+        </div>
       </div>
     </footer>
   </body>

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media-contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
   </head>
@@ -37,42 +38,46 @@
 
         <div class="contactUsRightSide">
             <form action="#" class="contactUsFormWrapper">
-                <div style="display: flex; gap: 8px; width: 580px;">
+                <div style="display: flex; gap: 32px; width: 644px;">
                     <div style="display: flex; flex-direction: column; gap: 8px; width: 306px; height: 82px;">
                         <label for="first_name">First Name:</label>
-                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; border-radius: 5px;" type="text" placeholder="First name" required>
+                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; width: 306px; border-radius: 5px;" type="text" placeholder="First name" required>
                       </div>
-                      <div style="display: flex;flex-direction: column;gap: 8px;width: 306px; height: 82px;">
+                      <div style="display: flex;flex-direction: column;gap: 8px; width: 306px; height: 82px; ">
                         <label for="last_name">Last Name:</label>
-                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; border-radius: 5px;" type="text" placeholder="Last name" required>
+                        <input style="border-radius: 5px; padding: 16px; border: 1px solid #D6D6D6; outline: none; height: 50px; width: 306px; border-radius: 5px;" type="text" placeholder="Last name" required>
                       </div>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="email">Email Address:</label>
-                  <input style="border-radius: 5px; padding: 16px;  border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 580px; height: 50px;" type="email" placeholder="Email" required>
+                  <input style="border-radius: 5px; padding: 16px;  border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 644px; height: 50px;" type="email" placeholder="Email" required>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="phone">Phone Number:</label>
-                  <span>
-                    <select style="border-radius: 5px; padding: 10px; border: 1px solid #D6D6D6; outline: none; width: 80px; height: 50px;" >
-                        <option value="+233">+233</option>
-                    </select>
-                    <input style="border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 495px; padding: 16px; height: 50px;" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                  <span style="display: flex; gap: 8px;">
+                  <div style="border-radius: 5px; padding: 10px; border: 1px solid #D6D6D6; outline: none; width: 113px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                    <select style="border-radius: 5px; padding: 10px; border:none; outline: none; width: 90px;" >
+                      <option value="+233">&#127468;&#127469; +233</option>
+                  </select>
+                  </div>
+                    <input style="border-radius: 5px; border: 1px solid #D6D6D6; outline: none; width: 523px; padding: 16px; height: 50px;" type="tel" id="phone" name="phone" placeholder="Phone Number" required>
 
                   </span>
                 </div>
                 <div style="display: flex; flex-direction: column; gap: 8px;">
                   <label for="how_can_we_help">How can we help you?</label>
-                  <textarea placeholder="Text" style="padding: 16px; border-radius: 5px; border:1px solid #D6D6D6; outline: none; width: 580px; height: 80px;"  rows="4" cols="50"></textarea>
+                  <textarea placeholder="Text" style="padding: 16px; border-radius: 5px; border:1px solid #D6D6D6; outline: none; width: 644px; height: 80px;"  rows="4" cols="50"></textarea>
                 </div>
-                <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: flex; width: 644px; flex-direction: column; gap: 8px;">
                   <label for="how_did_you_find_us">How did you find out about us?</label>
-                  <select style="padding: 16px; border-radius: 5px; width: 580px; height:50px; border: 1px solid #D6D6D6; outline: none;">
-                    <option value="search_engine">Search Engine</option>
-                    <option value="social_media">Social Media</option>
-                    <option value="friend">Friend</option>
-                    <option value="other">Other</option>
-                  </select>
+                  <div style="border: 1px solid #D6D6D6; border-radius: 5px;">
+                    <select style=" padding: 16px; border-radius: 5px; width: 630px; height:50px; border: none; outline: none;">
+                      <option value="search_engine">Search Engine</option>
+                      <option value="social_media">Social Media</option>
+                      <option value="friend">Friend</option>
+                      <option value="other">Other</option>
+                    </select>
+                  </div>
                 </div>
                 
               </form>
@@ -80,33 +85,37 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer class="footerContainer">
+      <div class="footerWrapper">
         <div class="footerLogo">
-            <img src="./assests/images/logo2.png" alt="">
-            <p style="font-size: 16px; font-weight: 400;width: 220px;">Lorem ipsum dolor sit amet consectetur.</p>
+          <img src="./assests/images/logo2.png" alt="" />
+          <p style="font-size: 16px; font-weight: 400; width: 220px">
+            Lorem ipsum dolor sit amet consectetur.
+          </p>
         </div>
         <div class="footerDetails">
-            <span class="condition">
-                <h3>COMPANY</h3>
-                <p>Terms & Conditions</p>
-                <p>Terms of use</p>
-            </span>
-            <span class="platforms">
-                <h3>PLATFORM</h3>
-                <p>About us</p>
-                <p>Accomodation</p>
-                <p>Accomodation</p>
-                <p>Accomodation</p>
-                <p>Accomodation</p>
-                <p>Accomodation</p>
-            </span>
-            <span class="socials">
-                <h3>SOCIALS</h3>
-                <p>Instagram</p>
-                <p>Whatsapp</p>
-                <p>Twitter</p>
-            </span>
+          <span class="condition">
+            <h3>COMPANY</h3>
+            <p>Terms & Conditions</p>
+            <p>Terms of use</p>
+          </span>
+          <span class="platforms">
+            <h3>PLATFORM</h3>
+            <a href="./about.html">About us</a>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+            <p>Accomodation</p>
+          </span>
+          <span class="socials">
+            <h3>SOCIALS</h3>
+            <p>Instagram</p>
+            <p>Whatsapp</p>
+            <p>Twitter</p>
+          </span>
         </div>
+      </div>
     </footer>
   </body>
 </html>
