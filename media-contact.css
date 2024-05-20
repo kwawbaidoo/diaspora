@@ -24,6 +24,8 @@
         width: 100%;
         max-width: 390px;
         gap: 24px;
+        border-radius: 0px;
+        height: auto;
         /* background-color: inherit; */
         /* display: none; */
     }
@@ -38,17 +40,13 @@
 
     .contactUsFormWrapper{
         max-width: 278px;
-        border: 1px solid red;
-        /* background-color: blue; */
-        /* padding: 24px; */
-
-        /* display: none; */
-        /* background-color:white; */
     }
 
     .leftSideTop{
         gap: 40px;
         max-width: 326px;
+        border-radius: none;
+
     }
 
     .contactUsRightSide{
@@ -57,7 +55,7 @@
 
     .contactUserName{
         width: 278px;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
 
     .userNameInput{
@@ -73,11 +71,16 @@
     }
 
     .phoneNumberInput{
-        width: 156px;
+        width: 145px;
     }
 
     .textareaInput{
         width: 278px;
+        height: 56px;
+    }
+
+    .selectOptionInput{
+        display: none;
     }
 
     .textareaWrapper{
