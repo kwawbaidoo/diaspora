@@ -4,9 +4,11 @@ const dropDownMenu = document.getElementById('dropDownMenu')
 
 menuToggle.addEventListener('click', ()=>{
 
-    if(dropDownMenu.style.display = ' none'){
+    if(dropDownMenu.style.display === 'none'){
 
-        dropDownMenu.style.display='flex';
+        dropDownMenu.style.display = 'flex';
     }
-    dropDownMenu.style.display = 'none'
+        else{
+            dropDownMenu.style.display = 'none'
+        }
 })
