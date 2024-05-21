@@ -161,9 +161,11 @@
 }
 
 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  display: flex;
   gap: 8px;
+  /* border: 1px solid red; */
+  /* padding: 5px; */
   overflow: scroll;
 }
 
@@ -172,12 +174,6 @@
   flex-direction: column;
   gap: 16px;
   /* border: 1px solid red; */
-}
-
-.imageContainer{
-  display: flex;
-  width: 100%;
-  border: 1px solid red;
 }
 
 .arrow {
@@ -304,6 +300,7 @@
 .search input {
   border: none;
   outline: none;
+  width: 500px;
 }
 
 .touristSite {
