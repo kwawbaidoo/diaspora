@@ -188,4 +188,39 @@
   .heroBtn {
     flex-direction: column;
   }
+
+
+
+
+.dropDownMenu{
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+  background-color: #000;
+  width: 100%;
+  padding:24px 32px 24px 32px;
+  position: absolute;
+  top: 90px;
+  right: 0;
+}
+
+ul li{
+  width: 100%;
+  display: inline-block;
+  padding:  1rem;
+  border-bottom: 1px solid #222222;
+}
+
+li a{
+  text-decoration: none;
+  color: #ffff;
+}
+
+.menuBtn{
+  margin-left: 15px;
+  width: 150px;
+  height: 48px;
+  font-size: 16px;
+}
+
 }
