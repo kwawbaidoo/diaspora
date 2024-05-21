@@ -138,12 +138,11 @@
   justify-content: space-between;
 }
 
-
-
 .gallaryCard {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .gallaryCard img:hover + .gallaryHover {
@@ -165,7 +164,7 @@
   left: 0;
 }
 
-.gallary{
+.gallary {
   background-color: black;
 }
 
@@ -678,8 +677,7 @@
   /* justify-content: center; */
 }
 
-
-.checkInput{
+.checkInput {
   width: 32px;
   height: 32px;
   background: red;
@@ -713,8 +711,6 @@
   padding: 0px;
   gap: 32px;
 }
-
-
 
 .contactUserName {
   display: flex;
@@ -795,7 +791,6 @@
   border: none;
 }
 
-
-.dropDownMenu{
+.dropDownMenu {
   display: none;
 }
