@@ -1,5 +1,12 @@
-const menuToggle = document.getElementById('#menuToggle');
+const menuToggle = document.getElementById('menuToggle');
+
+const dropDownMenu = document.getElementById('dropDownMenu')
 
 menuToggle.addEventListener('click', ()=>{
-    alert(' clicked')
+
+    if(dropDownMenu.style.display = ' none'){
+
+        dropDownMenu.style.display='flex';
+    }
+    dropDownMenu.style.display = 'none'
 })
