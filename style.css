@@ -138,26 +138,7 @@
   justify-content: space-between;
 }
 
-/* .heroBtn :first-child {
-  padding: 12px 24px 12px 24px;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: #abdeff;
-  border: none;
-  font-family: "inter";
-}
 
-.heroBtn :last-child {
-  padding: 12px 24px 12px 24px;
-  border-radius: 5px;
-  text-align: center;
-  border: 1px solid #abdeff;
-  color: #abdeff;
-  font-size: 16px;
-  font-weight: 500;
-  background-color: black;
-} */
 
 .gallaryCard {
   display: flex;
@@ -191,6 +172,12 @@
   flex-direction: column;
   gap: 16px;
   /* border: 1px solid red; */
+}
+
+.imageContainer{
+  display: flex;
+  width: 100%;
+  border: 1px solid red;
 }
 
 .arrow {
