@@ -143,6 +143,14 @@
   flex-direction: column;
   justify-content: space-between;
   cursor: pointer;
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.gallaryCard.visible {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .gallaryCard img:hover + .gallaryHover {
