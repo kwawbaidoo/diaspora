@@ -159,6 +159,11 @@
   display: flex;
 }
 
+
+.gallary{
+  overflow-x: hidden;
+}
+
 .gallaryCard img:hover{ 
 transform: translateY(10px);
 }
