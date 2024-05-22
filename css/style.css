@@ -180,9 +180,7 @@
   width: 100%;
   display: flex;
   gap: 8px;
-  /* position: relative; */
-  overflow: scroll;
-  /* background-color: black; */
+  overflow: hidden;
   height: fit-content;
 }
 
