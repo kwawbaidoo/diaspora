@@ -177,7 +177,8 @@
   top: -100px;
   bottom: 0px;
   left: 0;
-  transition: 1s;
+  transition: 5ms;
+
 }
 
 .gallary {
